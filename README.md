@@ -1,6 +1,6 @@
 # Sobre o Projeto
 
-Este projeto foi gerado com o [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
+Este projeto foi gerado com o [Angular CLI](https://github.com/angular/angular-cli) version 8.3.26.
 
 O objetivo deste projeto é gerar insumo para aplicação em um DOJO de testes Unitários e teste End To End (E2E)
 
@@ -22,15 +22,15 @@ em seguida volte ao navegador na aplicação http://localhost:4200
 <table>
     <tr>
         <td colspan="2">
-            <img src="https://github.com/atrombetone/dojo-test/blob/master/screenshots/home_00.png" />
+            <img src="https://github.com/atrombetone/dojo-clean-architecture/blob/master/screenshots/home_00.png" />
         </td>
     </tr>
     <tr>
         <td>
-            <img src="https://github.com/atrombetone/dojo-test/blob/master/screenshots/products_00.png" />
+            <img src="https://github.com/atrombetone/dojo-clean-architecture/blob/master/screenshots/products_00.png" />
         </td>
         <td>
-            <img src="https://github.com/atrombetone/dojo-test/blob/master/screenshots/products_01.png" />
+            <img src="https://github.com/atrombetone/dojo-clean-architecture/blob/master/screenshots/products_01.png" />
         </td>
     </tr>
 </table>
@@ -40,14 +40,14 @@ em seguida volte ao navegador na aplicação http://localhost:4200
 Execute o comando `ng test` para rodar os testes unitários via [Karma](https://karma-runner.github.io).
 
 Uma segunda opção para obter mais detalhes pode ser utilizado o comando `ng test --code-coverage`, dessa forma é gerado um diretório chamado `coverage` na raiz do projeto contendo um relatório detalhado em HTML mostrando o resultado da cobertura.
-<img src="https://github.com/atrombetone/dojo-test/blob/master/screenshots/karma_01.png">
-<img src="https://github.com/atrombetone/dojo-test/blob/master/screenshots/coverage_01.png">
+<img src="https://github.com/atrombetone/dojo-clean-architecture/blob/master/screenshots/karma_01.png">
+<img src="https://github.com/atrombetone/dojo-clean-architecture/blob/master/screenshots/coverage_01.png">
 
 ## Teste End To End (E2E)
 
 Execute o comando `ng e2e` para rodar os testes End To End via [Protractor](http://www.protractortest.org/).
 
-<img src="https://github.com/atrombetone/dojo-test/blob/master/screenshots/e2e_3.png">
+<img src="https://github.com/atrombetone/dojo-clean-architecture/blob/master/screenshots/e2e_3.png">
 
 ## Teste de Mutação 
 
@@ -85,8 +85,8 @@ Para que um teste unitário tenha sucesso pelo menos um mutante deve ser abatido
 
 Tendo a vista este projeto, veja que ele obteve 100% de cobertura no testes unitários, veja o resultado dos testes de mutação:
 
-<img src="https://github.com/atrombetone/dojo-test/blob/master/screenshots/mutation_01.png">
+<img src="https://github.com/atrombetone/dojo-clean-architecture/blob/master/screenshots/mutation_01.png">
 
-<img src="https://github.com/atrombetone/dojo-test/blob/master/screenshots/mutation_02.png">
+<img src="https://github.com/atrombetone/dojo-clean-architecture/blob/master/screenshots/mutation_02.png">
 
 
