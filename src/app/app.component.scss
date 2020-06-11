@@ -1,0 +1,92 @@
+@import "../assets/themes/colors.scss";
+
+.wrapper-layout {
+    display: grid;
+    grid-template-columns: 10em repeat(3, 1fr);
+    grid-template-areas: 
+        "header header header header"
+        "aside main main main"
+        "footer footer footer footer"
+    ;
+}
+
+header {
+    grid-area: header;
+    background-color: $cl-primary;
+    color: #fff;
+    height: 64px;
+    padding: 16px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+
+main {
+    grid-area: main;
+    height: calc(100vh - 128px);
+    background-color: #E1E1E1;
+    padding: 16px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+$cl-box-shadow: #B6b6b6;
+
+aside {
+    grid-area: aside;
+    color: #111;
+    background-color: #fff;
+    padding:  10px 0px;
+    box-shadow: 3px 3px 5px $cl-box-shadow;
+    -webkit-box-shadow: 3px 3px 5px $cl-box-shadow;
+    -moz-box-shadow: 3px 3px 5px $cl-box-shadow;
+    
+    
+    li {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    a {
+        padding: 5px 8px;
+        text-decoration: none;
+        color: #111;
+        width: 8em;
+        font-size: 18px;
+    }
+
+    a:hover {
+        background-color: rgb(235, 235, 235);
+        font-weight: bold;
+        color: rgb(68, 68, 68);
+    }
+
+    span {
+        font-size: 18px;
+    }
+}
+
+footer {
+    grid-area: footer;
+    background-color: #000;
+    color: #fff;
+    min-height: 64px;
+    padding: 15px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.c-navbar li {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media (min-width: 48em) {
+    .wrapper-layout {
+        background-color: #fff;
+    }
+}
