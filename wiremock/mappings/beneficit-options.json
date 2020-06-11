@@ -1,0 +1,11 @@
+{
+  "request": {
+    "url": "/v1/beneficit",
+    "method": "OPTIONS"
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 2000,
+    "body": ""
+  }
+}

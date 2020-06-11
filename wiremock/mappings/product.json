@@ -1,0 +1,30 @@
+{
+  "request": {
+    "url": "/v1/product",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 2000,
+    "jsonBody": [
+      {
+        "productType": "100",
+        "productName": "Titulo de Capitalização"
+      },
+      {
+        "productType": "102",
+        "productName": "Previdência Privada"
+      }
+    ],
+    "headers": {
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers": "accept, content-type, X-User-Info-Sig, X-User-Roles-Sig, Set-Cookie",
+      "Access-Control-Allow-Methods": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS",
+      "Access-Control-Expose-Headers": "accept, content-type, X-User-Info-Sig, X-User-Roles-Sig, Set-Cookie",
+      "Content-Type": "application/json",
+      "X-User-Info-Sig": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb2RpZ29GdW5jaW9uYWwiOiJJOTAwNDU5IiwiZW5jUGFzc3dvcmQiOiJ3YWRyZTIzcmJyMzNmMmRmd2UyZzIzd2VmIiwibm9tZUNvbXBsZXRvIjoiSk9TRSBVU1VBUklPIERFIFRFU1RFUyIsImdydXBvIjoiNDEyIC0gTU9CSUxJREFERSBDT1JQT1JBVElWQSIsImVtcHJlc2EiOiJCQU5DTyBCUkFERVNDTyBTLkEuIiwiZGVwYXJ0YW1lbnRvIjoiNDI1MyAtIERFUFRPLiBERSBTSVNURU1BUyIsImUtbWFpbCI6InRlc3RlQGJyYWRlc2NvLmNvbS5iciJ9.ZxSLp8rjFV8DnKKHP31vBpRuRI60JicrT-G2o5W1ga4",
+      "X-User-Roles-Sig": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJnaWRlcyI6WyJDSU5WMDAwMSJdfQ.UHJy5f3v_7-L7n4SqW04yUFBrX7G3eVKhV4ukZNt7rc",
+      "Set-Cookie": "JSESSIONID_cinv=ikuHPEAy2+kvAAAYSgSeUlbN.undefined; Path=/v1"
+    }
+  }
+}

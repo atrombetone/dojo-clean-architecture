@@ -1,0 +1,18 @@
+{
+  "request": {
+    "url": "/v1/beneficit",
+    "method": "GET"
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 2000,
+    "jsonBody": {
+      "branch": {
+        "documentNumber": "44.372.310/0001-02",
+        "documentType": "CNPJ"
+      },
+      "employee": {},
+      "value": 10
+    }
+  }
+}
