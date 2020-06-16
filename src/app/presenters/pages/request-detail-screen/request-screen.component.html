@@ -1,0 +1,30 @@
+<h3>Request Details</h3>
+
+<p>
+  <a routerLink="['/employee-screen']">Employees</a>
+</p>
+
+<div>
+
+  <div>
+    <label for="requestNumber">
+      Request Number:
+    </label>
+    {{request.requestNumber}}    
+  </div>
+
+  <div>
+    <label for="status">
+      Status:
+    </label>
+    {{request.status}}    
+  </div>
+
+  <div>
+    <label for="benefits">
+      Benefits
+    </label>
+    <benefit-list [benefits]="request.benefits"></benefit-list>
+  </div>
+
+</div>

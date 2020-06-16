@@ -1,0 +1,24 @@
+<table>
+  <thead>
+      <td>Selecionar</td>
+      <td>CPF</td>
+      <td>Nome</td>
+      <td>Valor</td>
+  </thead>
+  <tbody>
+    <tr *ngFor="let benefit of benefits; let i = index">
+      <td>
+        <input type="checkbox"/>
+      </td>
+      <td>
+        {{benefit.employee.cpf}}
+      </td>
+      <td>
+        {{benefit.employee.name}}
+      </td>
+      <td>
+        <input type="text" [value]="benefit.value" [disabled]="!benefit.checked" />
+      </td>
+    </tr>    
+  </tbody>
+</table>
